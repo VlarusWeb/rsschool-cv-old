@@ -92,5 +92,5 @@ selectList.addEventListener('change' , (event) => {
 ### **Languages:**
 
 * **Russian** - Native
-* **Latvian** - Native or bilingual proficiency
+* **Latvian** - Full Professional Proficiency
 * **English** - Pre-intermediate
