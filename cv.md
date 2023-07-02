@@ -68,3 +68,29 @@ Hardworking Intern Front-End Developer not afraid to go the extra mile. Good tea
 1. RS School - JS/FE Pre-School 2023Q2
 2. Udemy - The Complete 2023 Web Development Bootcamp
 3. Codecademy Pro - Front-End Engineer Career Path
+
+---
+
+### **Code example:**
+
+```JS
+const colors = document.querySelectorAll('.colors');
+const selectList = document.querySelector('.select__list');
+
+selectList.addEventListener('change' , (event) => {
+  [...colors].forEach((color) => {
+    color.classList.remove('colors--active');
+    if (color.id === event.target.value) {
+      color.classList.add('colors--active');
+    }
+  });
+});
+```
+
+---
+
+### **Languages:**
+
+* **Russian** - Native
+* **Latvian** - Native or bilingual proficiency
+* **English** - Pre-intermediate
