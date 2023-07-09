@@ -127,9 +127,34 @@ body {
   color:#F2DEBA;
 }
 
+.section-block {
+  width: 100%;
+}
+
 .footer {
   padding: 10px;
   background-color: #F2DEBA;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rs-logo-link {
+  width: 90px;
+}
+
+.github-link {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.github-logo-link {
+  height: 33px;
 }
 
 @media (max-width: 768px) {
