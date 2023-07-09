@@ -57,6 +57,11 @@ body {
   color: #FFEFD6;
 }
 
+.menu-link:hover {
+  border-bottom: 2px solid #0E5E6F;
+  transition: .5s;
+}
+
 .cv-logo {
   height: 24px;
   vertical-align: bottom;
