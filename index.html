@@ -45,7 +45,7 @@
         </p>
       </section>
 
-      <section class="section-3row">
+      <section class="section section-3row">
         <h2 class="section-title">Contact info:</h2>
         <ul>
           <li>Phone: +371 28696298</li>
@@ -54,7 +54,7 @@
         </ul>
       </section>
 
-      <section class="section-3row">
+      <section class="section section-3row">
         <h2 class="section-title" id="skills">Skills:</h2>
         <ul>
           <li>HTML</li>
@@ -64,7 +64,7 @@
         </ul>
       </section>
 
-      <section class="section-3row">
+      <section class="section section-3row">
         <h2 class="section-title" id="languages">Languages</h2>
         <ul>
           <li>Russian - Native</li>
@@ -75,6 +75,58 @@
 
       <section class="section">
         <h2 class="section-title" id="licenses">Licenses & certifications:</h2>
+        <h3 class="section-subtitle">LinkedIn Learning</h3>
+        <ol>
+          <li>Figma: Handing off to Developers</li>
+          <li>Figma for UX Design</li>
+          <li>Cutting-Edge CSS</li>
+          <li>HTML: Metadata in the Head</li>
+          <li>Symplifying Web Development with Accessibility Best Practices</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h3 class="section-subtitle">Coursera | Google</h3>
+        <ol>
+          <li>System Administration and IT infrastructure Services</li>
+          <li>Technical Support Fundamentals</li>
+          <li>The Bits and Bytes of Computer Networking</li>
+          <li>Operation Systems and You: Becoming a Power User</li>
+        </ol>
+        <h3 class="section-subtitle">Codecademy</h3>
+        <ol>
+          <li>Learn the Command Line</li>
+          <li>Learn Git & GitHub</li>
+          <li>Learn Bash Scripting</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Courses in progress...</h2>
+        <ol>
+          <li>RS school - JS/FE Pre-School 2023Q2</li>
+          <li>Udemy - The Complete 2023 Web Development Bootcamp</li>
+          <li>Codecademy Pro - Front-End Engineer Career Path</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Code example:</h2>
+        <pre class="code">
+          <code>
+  const colors = document.querySelectorAll('.colors');
+    const selectList = document.querySelector('.select__list');
+
+    selectList.addEventListener('change' , (event) => {
+      [...colors].forEach((color) => {
+        color.classList.remove('colors--active');
+        if (color.id === event.target.value) {
+          color.classList.add('colors--active');
+        }
+      });
+    });
+          </code>
+        </pre>
       </section>
 
     </div>
