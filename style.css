@@ -80,6 +80,48 @@ body {
   border-radius: 10%;
 }
 
+.profile-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  font-size: 32px;
+}
+
+.profile-subtitle {
+  font-size: 18px;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 10px 40px 40px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #3A8891;
+  border-bottom-width: 70%;
+}
+
+.section-3row {
+  width: calc(33% - 20px);
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight:500;
+  margin: 20px 0 40px;
+}
+
+.section-subtitle {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 15px 0 30px;
+}
+
 .footer {
   padding: 10px;
   background-color: #F2DEBA;
