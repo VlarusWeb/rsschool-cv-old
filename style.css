@@ -1,3 +1,64 @@
 * {
-   box-sizing: border-box; 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+.header {
+  padding: 10px;
+  background-color: #3A8891;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  justify-content: space-between;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+}
+
+.menu-item {
+  margin: 0 20px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu-link {
+  padding: 0 10px;
+  line-height: 24px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #FFEFD6;
+}
+
+.cv-logo {
+  height: 24px;
+  vertical-align: bottom;
+}
+
+.main {
+  background-color: #FFEFD6;
+  color: #0E5E6F;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #F2DEBA;
 }
