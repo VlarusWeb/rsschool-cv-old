@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>student cv</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <img src="images/CV-Logo512x512.png" alt="cv logotipe" class="cv-logo">
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+          <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
+          <li class="menu-item"><a href="#licenses" class="menu-link">Licenses</a></li>
+          <li class="menu-item"><a href="#languages" class="menu-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container main-container">
+      <section class="section profile-section">
+        <img src="images/CV_avatar.jpg" alt="employee foto" class="cv-avatar">
+        <div class="profile-title">
+          <h1>Vladimirs Babeško</h1>
+          <h4 class="profile-subtitle">Junior Front-End Developer</h4>
+        </div>
+
+      </section>
+
+      <section class="section">
+        <h2 class="section-title" id="about">About</h2>
+        <p>
+          Hardworking Intern Front-End Developer not afraid to go extra mile. Good team member,
+          always ready to help, and looking forward to using my programming skills to reach your company's goals.
+          After completing The Rolling Scopes school JavaScript/Front-End course, internship opportunities will
+          open up to launch a career in the rapidly growing IT industry.
+        </p>
+      </section>
+
+      <section class="section section-3row">
+        <h2 class="section-title">Contact info:</h2>
+        <ul>
+          <li>Phone: +371 28696298</li>
+          <li>E-mail: <a href="mailto:vlarusweb@gmail.com">vlarusweb@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/vladimirs-babesko-b89858230" target="_blank">LinkedIn</a></li>
+        </ul>
+      </section>
+
+      <section class="section section-3row">
+        <h2 class="section-title" id="skills">Skills:</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Figma</li>
+        </ul>
+      </section>
+
+      <section class="section section-3row">
+        <h2 class="section-title" id="languages">Languages</h2>
+        <ul>
+          <li>Russian - Native</li>
+          <li>Latvian - Full Professional Proficiency</li>
+          <li>English - Intermediate</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title" id="licenses">Licenses & certifications:</h2>
+        <h3 class="section-subtitle">LinkedIn Learning</h3>
+        <ol>
+          <li>Figma: Handing off to Developers</li>
+          <li>Figma for UX Design</li>
+          <li>Cutting-Edge CSS</li>
+          <li>HTML: Metadata in the Head</li>
+          <li>Symplifying Web Development with Accessibility Best Practices</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h3 class="section-subtitle">Coursera | Google</h3>
+        <ol>
+          <li>System Administration and IT infrastructure Services</li>
+          <li>Technical Support Fundamentals</li>
+          <li>The Bits and Bytes of Computer Networking</li>
+          <li>Operation Systems and You: Becoming a Power User</li>
+        </ol>
+        <h3 class="section-subtitle">Codecademy</h3>
+        <ol>
+          <li>Learn the Command Line</li>
+          <li>Learn Git & GitHub</li>
+          <li>Learn Bash Scripting</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Courses in progress...</h2>
+        <ol>
+          <li>RS school - JS/FE Pre-School 2023Q2</li>
+          <li>Udemy - The Complete 2023 Web Development Bootcamp</li>
+          <li>Codecademy Pro - Front-End Engineer Career Path</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Code example:</h2>
+        <pre class="code">
+          <code>
+  const colors = document.querySelectorAll('.colors');
+    const selectList = document.querySelector('.select__list');
+
+    selectList.addEventListener('change' , (event) => {
+      [...colors].forEach((color) => {
+        color.classList.remove('colors--active');
+        if (color.id === event.target.value) {
+          color.classList.add('colors--active');
+        }
+      });
+    });
+          </code>
+        </pre>
+      </section>
+
+      <section class="section-block section">
+        <h2 class="section-title">Experience in the IT field:</h2>
+        <p><i>I have no commercial experience...yet!</i></p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="logo-link">
+        <a href="https://rs.school/js-en/" target="_blank"><img src="images/rs_school_js.svg" class="rs-logo-link" alt="RS school logo"></a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/VlarusWeb" target="_blank" class="github-link"><img src="images/github-mark.svg" alt="github logo" class="github-logo-link"><sup>VlarusWeb</sup></a>
+      </div>
+      <div class="rights">
+        <span>&#169; 2023 VlarusWeb</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
